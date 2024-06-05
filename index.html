@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
+</head>
+
+<body id="contents">
+  <header class="text-white blugrad">
+    <h1 class="text-center">Weather Dashboard</h1>
+  </header>
+
+  <div class="mainContent row ">
+    <div id="leftcol" class="col">
+      <container class="col-3">
+        <div id="searchSec">
+          <h3 class="search-box">Search for City</h3>
+
+          <form id="searchForm">
+            <input id="formInput" type="text" placeholder="Search Cities.." class="mt-2 p-1 search-bar" />
+            <br />
+            <button id="searchBtn" type="button" class="my-2 search-btn">Search</button>
+          </form>
+          <div>
+            <hr />
+            <div id="cityHistory">
+              <text>pervious searches:</text>
+            </div>
+          </div>
+        </div>
+
+      </container>
+    </div>
+
+    <div class="weatherData col-9">
+      <div class="currentWeathCard">
+        <div class="currentWeathTitle">
+          <h2 id="curcity" id="city"></h2>
+        </div>
+        <div class="curWethCard">
+          <img id="curWeatherIcon" alt="Current Weather Icon"></img>
+          <div class="Nowcard">
+            <text id="curTemp"></text>
+            <text id="curWind"></text>
+            <text id="curHumidity"></text>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+      <section>
+
+        <div>
+          <h3>Next 5 Days</h3>
+
+        </div>
+
+        <div class="fiveDayFore">
+
+          <div class="forecastCard">
+            <div class="forecast1">
+              <h5 class="foreDate"></h5>
+              <img class="forecastIcon" alt="Weather Icon" />
+              <div class="TWHcards">
+                <text class="forecastTemp"></text>
+                <text class="forecastWind"></text>
+                <text class="forecastHumidity"></text>
+              </div>
+            </div>
+          </div>
+
+          <div class="forecastCard">
+            <div class="forecast2">
+              <h5 class="foreDate"></h5>
+              <img class="forecastIcon" alt="Weather Icon" />
+              <div class="TWHcards">
+                <text class="forecastTemp"></text>
+                <text class="forecastWind"></text>
+                <text class="forecastHumidity"></text>
+              </div>
+            </div>
+          </div>
+
+          <div class="forecastCard">
+            <div class="forecast3">
+              <h5 class="foreDate"></h5>
+              <img class="forecastIcon" alt="Weather Icon" />
+              <div class="TWHcards">
+                <text class="forecastTemp"></text>
+                <text class="forecastWind"></text>
+                <text class="forecastHumidity"></text>
+              </div>
+            </div>
+          </div>
+
+          <div class="forecastCard">
+            <div class="forecast4">
+              <h5 class="foreDate"></h5>
+              <img class="forecastIcon" alt="Weather Icon" />
+              <div class="TWHcards">
+                <text class="forecastTemp"></text>
+                <text class="forecastWind"></text>
+                <text class="forecastHumidity"></text>
+              </div>
+            </div>
+          </div>
+
+          <div class="forecastCard">
+            <div class="forecast5">
+              <h5 class="foreDate"></h5>
+              <img class="forecastIcon" alt="Weather Icon" />
+              <div class="TWHcards">
+                <text class="forecastTemp"></text>
+                <text class="forecastWind"></text>
+                <text class="forecastHumidity"></text>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="./Assets/script.js"></script>
+
+</html>
