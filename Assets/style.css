@@ -1,0 +1,105 @@
+.blugrad {
+    background-image: linear-gradient(to top, #ffffff, #3553ec);
+    padding: 30px;
+    
+}
+
+#contents {
+    background-color: #ffffff;
+}
+
+.mainContent {
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#formInput {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.recentSearch {
+    width: 100%;
+    background: #6d87ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.curWethCard {
+    margin-top: 3%;
+    background: #d9e0ff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5px;
+}
+
+
+#bodySec{
+    display: flex;
+}
+
+
+.search-btn {
+    border-style: none;
+    background: #6d87ff;
+    color: white;
+
+}
+
+.fiveDay {
+    display: flex;
+    flex-direction: row;
+}
+
+.fiveDay div {
+    margin: 5px;
+}
+
+.TWHcards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 20px;
+    font-size: smaller;
+
+}
+
+.Nowcard {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+.fiveDayFore {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.forecastCard {
+    margin-right: 3%;
+    margin-top: 3%;
+    background: #d9e0ff;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+#cityHistory {
+    font-size: smaller;
+}
