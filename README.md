@@ -10,3 +10,7 @@ Here are some photos of the site:
 
 <img width="1470" alt="Screenshot 2024-06-06 at 8 25 40 pm" src="https://github.com/adellemaeocampo/weather-app/assets/152781829/95594daa-1c72-43e4-8821-e417aac19102">
 
+## Deployment
+
+here is the link to my project: [Weather Dashboard](https://adellemaeocampo.github.io/weather-app/)
+
